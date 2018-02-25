@@ -1,0 +1,215 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+body{
+        display: block;
+        position: absolute;
+        font-family: Helvetica, sans-serif;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        height: 100%;
+        width: 100%;
+        background: lightgray;
+      }    
+        
+    .container {
+        display: block;
+        width: 350px;
+        height: 500px;
+        border-radius: 15px;
+        -webkit-box-shadow: 4px 4px 14px rgba(8, 4, 19, 0.3);
+        box-shadow: 4px 4px 14px rgba(8, 4, 19, 0.3);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background: #191428;
+        color: white;
+    }
+    
+    
+    #display {
+        margin: 30px 30px 0 30px;
+        height: 80px;
+    }
+    
+    #display #inputxt {
+        color: black;
+        border: none;
+        float: left;
+        font-size: 50px;
+        height: 80px;
+        margin: 0;
+        width: 290px;
+        text-align: end;
+        background: white;
+    }
+    
+    .keyboard {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .row{
+        text-align:center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    }
+    
+    input[type=button]{
+        width: 56px;
+        height: 55px;
+        text-align: center;
+        background: none;
+        font-size: 25px;
+        padding: 5px;
+        margin: 5px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: none;
+        border: solid 3px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 10px;        
+    }
+    
+       
+    #on {
+        width: 80px;
+        color: red;
+    }
+    #on:hover{
+        background:red;
+        color: black;
+        border-color: red;
+    }
+    
+    #ac {
+        width: 77px;
+        border-color: orangered;
+        color: orangered;
+        }
+    #ac:hover{
+        background:orangered;
+        color: black;
+        border-color: orangered;
+    }    
+    
+    #ce {
+        width: 77px;
+        border-color: orange;
+        color: orange;
+        }
+    #ce:hover{
+        background:orange;
+        color: black;
+        border-color: orange;
+    }  
+    
+
+    .b1r {
+        border-color: #d9d926;
+        color: #d9d926;
+        }
+        
+    .b1r:hover
+    {
+        background: #d9d926;
+        color: black;
+        border-color: #d9d926;
+    }  
+    
+    #opo {
+        border-color: #90d825;
+        color: #90d825;
+        }
+    #opo:hover{
+        background:#90d825;
+        color: black;
+        border-color:#90d825;
+    } 
+    
+    .b2r {
+        border-color: #4ad926;
+        color: #4ad926;
+        }
+        
+    .b2r:hover
+    {
+        background: #4ad926;
+        color: black;
+        border-color: #4ad926;
+    }  
+    
+    #opt {
+        border-color: #26d94a;
+        color: #26d94a;
+        }
+    #opt:hover{
+        background:#26d94a;
+        color: black;
+        border-color:#26d94a;
+    } 
+
+    .b3r {
+        border-color: #26d991;
+        color: #26d991;
+        }
+        
+    .b3r:hover
+    {
+        background: #26d991;
+        color: black;
+        border-color: #26d991;
+    }  
+    
+    #opm {
+        border-color: #26d9d9;
+        color: #26d9d9;
+        }
+    #opm:hover{
+        background:#26d9d9;
+        color: black;
+        border-color:#26d9d9;
+    } 
+    
+    .b4r {
+        border-color: #2691d9;
+        color: #2691d9;
+        }
+        
+    .b4r:hover
+    {
+        background: #2691d9;
+        color: black;
+        border-color: #2691d9;
+    }  
+    
+    .opp {
+        border-color: #266ed9;
+        color: #266ed9;
+        }
+
+    .opp:hover{
+        background:#266ed9;
+        color: black;
+        border-color:#266ed9;
+    } 
+    
+    .toggle {
+      #ac, #ce, .b1r, #opo, .b2r, #opt, .b3r, #opm, .b4r, .opp  {
+        border-color: gray !important;
+        color: gray !important;  }  
+      #display #inputxt {background: black !important};  
+    }
+

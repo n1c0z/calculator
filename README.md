@@ -1,1 +1,1 @@
-# js_calculator
+Simple Javascript Calculator (based on FCC)

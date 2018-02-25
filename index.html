@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Calculator</title>
+        <meta name="robots" content="noindex">
+        <link id="style" rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+ 
+    <div class="container">
+        <div>
+            <div id="display">
+                <input id="inputxt" type="text" value="0"/>
+            </div>
+            
+            <div class="keyboard">
+                
+                <div class="row">
+                    <input type="button" value="ON" id="on" onclick="toggle()"/>    
+                    <input type="button" value="AC" id="ac" onclick="press('AC')"/>                    
+                    <input type="button" value="CE" id="ce" onclick="press('CE')"/>                      
+                </div>
+                
+                
+                <div class="row">
+                    <input type="button" value="7" class="b1r" onclick="press('7')"/>    
+                    <input type="button" value="8" class="b1r" onclick="press('8')"/>                    
+                    <input type="button" value="9" class="b1r" onclick="press('9')"/>    
+                    <input type="button" value="&#247;" id="opo" onclick="press('/')"/> 
+                </div>
+ 
+                <div class="row">
+                    <input type="button" value="4" class="b2r" onclick="press('4')"/>    
+                    <input type="button" value="5" class="b2r" onclick="press('5')"/>                    
+                    <input type="button" value="6" class="b2r" onclick="press('6')"/>    
+                    <input type="button" value="&#215;" id="opt" onclick="press('*')"/>                     
+                </div>
+ 
+                 
+                <div class="row">
+                    <input type="button" value="1" class="b3r" onclick="press('1')"/>    
+                    <input type="button" value="2" class="b3r" onclick="press('2')"/>                    
+                    <input type="button" value="3" class="b3r" onclick="press('3')"/>    
+                    <input type="button" value="&#8722;" id="opm" onclick="press('-')"/>                     
+                </div>
+                
+                 
+                <div class="row">
+                    <input type="button" value="." class="b4r" onclick="press('.')"/>    
+                    <input type="button" value="0" class="b4r" onclick="press('0')"/>                    
+                    <input type="button" value="&#61;" class="opp" onclick="press('=')"/>    
+                    <input type="button" value="&#x2b;" class="opp" onclick="press('+')"/>                     
+                </div>
+                
+            </div>
+        </div>
+    </div>
+ 
+<script src="script.js"></script>
+ 
+</body>
+</html>
