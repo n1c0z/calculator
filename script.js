@@ -64,6 +64,10 @@ var input = document.getElementById("inputxt");
         }
     }
 
+    function disable(){
+        return false;
+    }
+
     function toggle() {
         var style = document.getElementById("style");
         var input = document.getElementById('inputxt');
